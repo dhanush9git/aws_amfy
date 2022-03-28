@@ -23,6 +23,7 @@ function App() {
         </p>
 
 		<p>
+		<h4>Simple demo using input and submit</h4>
 			 <form onSubmit={handleSubmit}>
 			  <label>Enter your name :&nbsp; 
 				<input 
@@ -40,7 +41,5 @@ function App() {
     </div>
   );
 }
-
-
 
 export default App;
