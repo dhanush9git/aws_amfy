@@ -22,19 +22,7 @@ function App() {
           Hello from Kapstone 
         </p>
 
-		<p>
-		<h4>Simple demo using input and submit</h4>
-			 <form onSubmit={handleSubmit}>
-			  <label>Enter your name :&nbsp; 
-				<input 
-				  type="text" 
-				  value={name}
-				  onChange={(e) => setName(e.target.value)}
-				/>
-			  </label>
-			  <input type="submit" />
-			</form>
-        </p>
+
 		
       </header>
 	  	
